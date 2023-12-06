@@ -42,6 +42,7 @@
 		851C01E42B205DC600D33C8C /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 851C01E32B205DC600D33C8C /* FirebaseRemoteConfigSwift */; };
 		851C01E62B205DC600D33C8C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 851C01E52B205DC600D33C8C /* FirebaseStorage */; };
 		851C01E82B205DC600D33C8C /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 851C01E72B205DC600D33C8C /* FirebaseStorageCombine-Community */; };
+		851C01EA2B2063C500D33C8C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851C01E92B2063C500D33C8C /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		850147D62AFE8C360020ACD2 /* GourmetGOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GourmetGOUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		851C01AC2B205AA200D33C8C /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		851C01B02B205D4500D33C8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Movies/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		851C01E92B2063C500D33C8C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				851C01AC2B205AA200D33C8C /* StartView.swift */,
+				851C01E92B2063C500D33C8C /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851C01EA2B2063C500D33C8C /* LoginView.swift in Sources */,
 				851C01AD2B205AA300D33C8C /* StartView.swift in Sources */,
 				850147B92AFE8C350020ACD2 /* GourmetGOApp.swift in Sources */,
 			);
